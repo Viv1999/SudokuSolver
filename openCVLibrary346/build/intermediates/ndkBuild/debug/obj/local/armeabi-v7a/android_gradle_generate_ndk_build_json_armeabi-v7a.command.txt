@@ -1,0 +1,16 @@
+Executable : /home/vivek/android-ndk-r19c/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/home/vivek/android-ndk-r19c/sources/android/native_app_glue/Android.mk
+APP_ABI=armeabi-v7a
+NDK_ALL_ABIS=armeabi-v7a
+NDK_DEBUG=1
+APP_PLATFORM=android-16
+NDK_OUT=/home/vivek/SudokuSolver/openCVLibrary346/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/home/vivek/SudokuSolver/openCVLibrary346/build/intermediates/ndkBuild/debug/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+

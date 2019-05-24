@@ -15,4 +15,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    externalNativeBuild {
+        ndkBuild {
+            path file('../../android-ndk-r19c/sources/android/native_app_glue/Android.mk')
+        }
+    }
 }
